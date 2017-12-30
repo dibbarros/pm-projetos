@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e6e6e6;
+    padding: 10px;
+    font-family: "open sans"
+}
+
+.noticia{
+    background-color: white;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0px 2px 2px #999;
+    margin-bottom: 10px
+}
+
+.noticia img{
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+}
+
+.noticia .texto{
+    padding: 18px;
+}
+.noticia .detalhes{
+    margin-bottom: 10px;
+
+}
+.local{
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;   
+}
+.data{
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.noticia h2 {
+    margin-bottom: 10px;
+    line-height:25px
+}
+.noticia h2 a{
+    color: #b5000d;
+    text-decoration: none;
+    
+    
+}
+
+.noticia p{
+    line-height: 20px;
+    font-size: 18px;
+    color: #333333;
+}
